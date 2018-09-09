@@ -24,7 +24,8 @@ $$\omega_{i}\leftarrow  \omega_{i} - \eta \frac{\partial E}{\partial \omega_{i}}
 ----------
 # Momentum 
 
-> momentum是梯度下降法中一种常用的加速技术。对于一般的SGD，其表达式为$x \leftarrow  x-\alpha \ast dx$,$x$沿负梯度方向下降。而带momentum项的SGD则生成如下形式：
+momentum是梯度下降法中一种常用的加速技术。对于一般的SGD，其表达式为$x \leftarrow  x-\alpha \ast dx$,$x$沿负梯度方向下降。而带momentum项的SGD则生成如下形式：
+
 
 $$v=\beta \ast v -a\ast dx\\$$
 $x \leftarrow  x+v$
